@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -20,7 +18,7 @@
 .DS_Store
 *.pem
 
-# debug
+# debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -37,11 +35,16 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# IDEs
+# IDEs and editors
 /.idea/
 /.idea/codeStyles/codeStyleConfig.xml
 /.idea/codeStyles/Project.xml
 /.idea/developer-tools.xml
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
 
 # macOS
 ._*
@@ -50,3 +53,20 @@ next-env.d.ts
 
 # Local Netlify folder
 .netlify
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Yarn lock files (if you're not using them)
+/yarn.lock
+
+# Linux
+*~
+
+# Profiles and configuration files
+Procfile.txt
+.gitignore.txt
+README.md
