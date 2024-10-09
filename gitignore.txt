@@ -1,0 +1,72 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.*
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs and editors
+/.idea/
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
+/.idea/developer-tools.xml
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# Local Netlify folder
+.netlify
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Yarn lock files (if you're not using them)
+/yarn.lock
+
+# Linux
+*~
+
+# Profiles and configuration files
+Procfile.txt
+.gitignore.txt
+README.md
